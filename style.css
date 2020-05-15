@@ -4,3 +4,23 @@ td,
 tr {
     border: 1px solid black;
 }
+body {
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(to left, #1687ED, #14375A);
+    background-image: url("http://lepassetempsderose.l.e.pic.centerblog.net/o/71f97dfc.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+q {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 160%;
+    background-color: lightgray;
+    border: 3px solid firebrick;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
