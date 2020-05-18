@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Open-Sans-regular';
+    src: url(/Font/opensans-regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+} 
 table,
 th,
 td,
@@ -12,15 +18,88 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
+    font-family: "Open-Sans-regular";
 }
-q {
+.citation.paysan {
     width: 50%;
-    margin: 0 auto;
     font-size: 160%;
     background-color: lightgray;
-    border: 3px solid firebrick;
+    border-left: 3px solid blue;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 80px;
     padding-bottom: 80px;
+    margin: 100px;
+    margin-top: 50px;
 }
+.citation.fermier {
+    width: 50%;
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    clear: both;
+}
+blockquote, q {
+    font-style: italic;
+}
+header h1 {
+    background-color: yellow;
+}
+.bien {
+    text-transform: capitalize;
+    color: green;
+}
+.mal {
+    text-transform: capitalize;
+    color: red;
+}
+tr:nth-child(even) {background: white;}
+tr:nth-child(odd) {background: lightgray;}
+.liste1::after {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    content: "";
+    background: url("https://raw.githubusercontent.com/Kcchd/LIE-Jepsen-3.20/master/01-the-field/03-html-css/1-initiation/progressive-enhancement/bien.png?token=APP2IPXUY7YWXMYJ55UH3NC6Y7DYQ") no-repeat 0 0;
+    background-size: 100%;
+}
+.liste2::after {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    content: "";
+    background: url("https://raw.githubusercontent.com/Kcchd/LIE-Jepsen-3.20/master/01-the-field/03-html-css/1-initiation/progressive-enhancement/mal.png?token=APP2IPRHFXVOHP2MFFHZETC6Y7FNU") no-repeat 0 0;
+    background-size: 100%;
+}
+.liste3::after {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    content: "";
+    background: url("https://raw.githubusercontent.com/Kcchd/LIE-Jepsen-3.20/master/01-the-field/03-html-css/1-initiation/progressive-enhancement/chat.png?token=APP2IPQC5CMMD4WFZEQO2W26Y7FNU") no-repeat 0 0;
+    background-size: 100%;
+}
+img {
+    position: relative;
+    display: block;
+    margin: 20px;
+    width: 60%
+    margin: 100px; 
+}
+p:first-of-type{
+    font-weight: bold;
+}
+.img1 {
+    float: right;
+}
+.img2 {
+    float: left;
+}
+
